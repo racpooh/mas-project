@@ -3,6 +3,8 @@ from crew import RemoteWorkIranCrisisCrew
 
 load_dotenv()
 
+# Initialize the crew
+
 def run():
     result = RemoteWorkIranCrisisCrew().crew().kickoff()
     print(result)
