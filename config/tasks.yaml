@@ -1,0 +1,95 @@
+ceo_analysis_task:
+  description: >
+    Analyze remote work during the current Iran war and oil crisis from the
+    perspective of a CEO.
+
+    Focus on:
+    - business continuity
+    - productivity
+    - operational cost
+    - employee safety
+    - digital infrastructure needs
+    - strategic trade-offs
+
+    Write 1 short paragraph plus 3 bullet points.
+  expected_output: >
+    A concise executive-style analysis with 1 paragraph and 3 bullet points
+    from the CEO perspective.
+  agent: ceo
+
+employee_analysis_task:
+  description: >
+    Analyze remote work during the current Iran war and oil crisis from the
+    perspective of an employee.
+
+    Focus on:
+    - commuting cost
+    - flexibility
+    - work-life balance
+    - stress and isolation
+    - internet dependence
+    - job stability
+
+    Write 1 short paragraph plus 3 bullet points.
+  expected_output: >
+    A concise worker-centered analysis with 1 paragraph and 3 bullet points
+    from the employee perspective.
+  agent: employee
+
+minister_analysis_task:
+  description: >
+    Analyze remote work during the current Iran war and oil crisis from the
+    perspective of the Minister of Energy.
+
+    Focus on:
+    - energy conservation
+    - fuel demand reduction
+    - national policy response
+    - public welfare
+    - economic stability
+    - emergency measures
+
+    Write 1 short paragraph plus 3 bullet points.
+  expected_output: >
+    A concise policy-oriented analysis with 1 paragraph and 3 bullet points
+    from the Minister of Energy perspective.
+  agent: minister_of_energy
+
+cleaner_analysis_task:
+  description: >
+    Analyze remote work during the current Iran war and oil crisis from the
+    perspective of a cleaner who gets paid by working day.
+
+    Focus on:
+    - loss of daily income
+    - lack of remote-work options
+    - job insecurity
+    - unfair distribution of benefits
+    - need for support measures
+
+    Write 1 short paragraph plus 3 bullet points.
+  expected_output: >
+    A concise and grounded analysis with 1 paragraph and 3 bullet points
+    from the daily-wage cleaner perspective.
+  agent: cleaner
+
+final_report_task:
+  description: >
+    Write a balanced final report on remote work during the current Iran war
+    and oil crisis by synthesizing the CEO, employee, Minister of Energy, and
+    daily-wage cleaner perspectives provided in the context.
+
+    Structure:
+    1. Title
+    2. Introduction
+    3. CEO perspective
+    4. Employee perspective
+    5. Minister of Energy perspective
+    6. Cleaner perspective
+    7. Conclusion
+
+    Keep the report concise, formal, and suitable for an academic exercise.
+  expected_output: >
+    A polished multi-section report with a title, short introduction,
+    four stakeholder sections, and a concluding paragraph.
+  agent: report_writer
